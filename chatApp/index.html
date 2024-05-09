@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+
+    <title>myChat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img id="logo" src="chatAppLogo.png" />
+      <button id="refresh">Reload contacts</button>
+    </nav>
+    <div class="block">
+      <div class="chats">
+       
+      </div>
+      <div class="container">
+      </div>
+    </div>
+    <div class="send">
+      <form action="#" id="sendMessage">
+        <input type="text" class="messageInp" />
+        <button class="sendbtn" type="submit">send</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+nav {
+  background-color: rgba(179, 219, 219, 0.521);
+  border-radius: 24px;
+  /* display: inline-flex; */
+}
+.container {
+  border-radius: 24px;
+  margin: auto;
+  background-color: rgb(41, 40, 40);
+  margin-top: 15px;
+  min-height: 60vh;
+  width: 48vw;
+  overflow-y: scroll;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+.chats {
+  background-color: rgba(240, 255, 255, 0.459);
+  width: 48vw;
+  margin-top: 15px;
+  border-radius: 24px;
+  overflow-y: auto;
+  min-height: 60vh;
+  position: sticky;
+  top: 0;
+}
+#refresh{
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(48, 59, 109);
+  color: aliceblue;
+  border-radius: 24px;
+  margin: 20px 10px;
+  border: 2px solid rgb(218, 216, 216);
+}
+.newChatName{
+  padding: 15px 15px 15px 15px;
+  background-color: black;
+  color: aliceblue;
+  min-width: 30vw;
+  margin: 20px 10px;
+  border: 2px solid white;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+.send{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  
+}
+.message {
+  padding: 15px 15px 15px 15px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 24px;
+  margin: 20px 10px;
+  border: 2px solid rgb(218, 216, 216);
+}
+#sendMessage {
+  display: inline-flex;
+}
+
+.messageInp {
+  display: flex;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: rgb(179, 219, 219);
+  border-radius: 24px;
+  width: 80vw;
+  height: 24px;
+}
+
+.sendbtn {
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: aquamarine;
+  color: black;
+  height: 30px;
+  margin-top: 18px;
+  margin-left: 5px;
+  /* padding: 12px 12px 12px 12px; */
+}
